@@ -1,0 +1,1020 @@
+│   │   ├── index.mjs
+│   │   ├── initialize.d.ts
+│   │   ├── initialize.js
+│   │   ├── initialize.mjs
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── index.ts
+│   │   │   ├── initialize.ts
+│   │   │   ├── utils
+│   │   │   │   └── constants.ts
+│   │   │   └── _version.ts
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.tsbuildinfo
+│   │   ├── utils
+│   │   │   ├── constants.d.ts
+│   │   │   ├── constants.js
+│   │   │   └── constants.mjs
+│   │   ├── _version.d.ts
+│   │   ├── _version.js
+│   │   └── _version.mjs
+│   ├── workbox-navigation-preload
+│   │   ├── build
+│   │   │   ├── workbox-navigation-preload.dev.js
+│   │   │   ├── workbox-navigation-preload.dev.js.map
+│   │   │   ├── workbox-navigation-preload.prod.js
+│   │   │   └── workbox-navigation-preload.prod.js.map
+│   │   ├── disable.d.ts
+│   │   ├── disable.js
+│   │   ├── disable.mjs
+│   │   ├── enable.d.ts
+│   │   ├── enable.js
+│   │   ├── enable.mjs
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── index.mjs
+│   │   ├── isSupported.d.ts
+│   │   ├── isSupported.js
+│   │   ├── isSupported.mjs
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── disable.ts
+│   │   │   ├── enable.ts
+│   │   │   ├── index.ts
+│   │   │   ├── isSupported.ts
+│   │   │   └── _version.ts
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.tsbuildinfo
+│   │   ├── _version.d.ts
+│   │   ├── _version.js
+│   │   └── _version.mjs
+│   ├── workbox-precaching
+│   │   ├── addPlugins.d.ts
+│   │   ├── addPlugins.js
+│   │   ├── addPlugins.mjs
+│   │   ├── addRoute.d.ts
+│   │   ├── addRoute.js
+│   │   ├── addRoute.mjs
+│   │   ├── build
+│   │   │   ├── workbox-precaching.dev.js
+│   │   │   ├── workbox-precaching.dev.js.map
+│   │   │   ├── workbox-precaching.prod.js
+│   │   │   └── workbox-precaching.prod.js.map
+│   │   ├── cleanupOutdatedCaches.d.ts
+│   │   ├── cleanupOutdatedCaches.js
+│   │   ├── cleanupOutdatedCaches.mjs
+│   │   ├── createHandlerBoundToURL.d.ts
+│   │   ├── createHandlerBoundToURL.js
+│   │   ├── createHandlerBoundToURL.mjs
+│   │   ├── getCacheKeyForURL.d.ts
+│   │   ├── getCacheKeyForURL.js
+│   │   ├── getCacheKeyForURL.mjs
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── index.mjs
+│   │   ├── LICENSE
+│   │   ├── matchPrecache.d.ts
+│   │   ├── matchPrecache.js
+│   │   ├── matchPrecache.mjs
+│   │   ├── package.json
+│   │   ├── precacheAndRoute.d.ts
+│   │   ├── precacheAndRoute.js
+│   │   ├── precacheAndRoute.mjs
+│   │   ├── PrecacheController.d.ts
+│   │   ├── PrecacheController.js
+│   │   ├── PrecacheController.mjs
+│   │   ├── precache.d.ts
+│   │   ├── PrecacheFallbackPlugin.d.ts
+│   │   ├── PrecacheFallbackPlugin.js
+│   │   ├── PrecacheFallbackPlugin.mjs
+│   │   ├── precache.js
+│   │   ├── precache.mjs
+│   │   ├── PrecacheRoute.d.ts
+│   │   ├── PrecacheRoute.js
+│   │   ├── PrecacheRoute.mjs
+│   │   ├── PrecacheStrategy.d.ts
+│   │   ├── PrecacheStrategy.js
+│   │   ├── PrecacheStrategy.mjs
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── addPlugins.ts
+│   │   │   ├── addRoute.ts
+│   │   │   ├── cleanupOutdatedCaches.ts
+│   │   │   ├── createHandlerBoundToURL.ts
+│   │   │   ├── getCacheKeyForURL.ts
+│   │   │   ├── index.ts
+│   │   │   ├── matchPrecache.ts
+│   │   │   ├── precacheAndRoute.ts
+│   │   │   ├── PrecacheController.ts
+│   │   │   ├── PrecacheFallbackPlugin.ts
+│   │   │   ├── PrecacheRoute.ts
+│   │   │   ├── PrecacheStrategy.ts
+│   │   │   ├── precache.ts
+│   │   │   ├── _types.ts
+│   │   │   ├── utils
+│   │   │   │   ├── createCacheKey.ts
+│   │   │   │   ├── deleteOutdatedCaches.ts
+│   │   │   │   ├── generateURLVariations.ts
+│   │   │   │   ├── getCacheKeyForURL.ts
+│   │   │   │   ├── getOrCreatePrecacheController.ts
+│   │   │   │   ├── PrecacheCacheKeyPlugin.ts
+│   │   │   │   ├── PrecacheInstallReportPlugin.ts
+│   │   │   │   ├── printCleanupDetails.ts
+│   │   │   │   ├── printInstallDetails.ts
+│   │   │   │   └── removeIgnoredSearchParams.ts
+│   │   │   └── _version.ts
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.tsbuildinfo
+│   │   ├── _types.d.ts
+│   │   ├── _types.js
+│   │   ├── _types.mjs
+│   │   ├── utils
+│   │   │   ├── createCacheKey.d.ts
+│   │   │   ├── createCacheKey.js
+│   │   │   ├── createCacheKey.mjs
+│   │   │   ├── deleteOutdatedCaches.d.ts
+│   │   │   ├── deleteOutdatedCaches.js
+│   │   │   ├── deleteOutdatedCaches.mjs
+│   │   │   ├── generateURLVariations.d.ts
+│   │   │   ├── generateURLVariations.js
+│   │   │   ├── generateURLVariations.mjs
+│   │   │   ├── getCacheKeyForURL.d.ts
+│   │   │   ├── getCacheKeyForURL.js
+│   │   │   ├── getCacheKeyForURL.mjs
+│   │   │   ├── getOrCreatePrecacheController.d.ts
+│   │   │   ├── getOrCreatePrecacheController.js
+│   │   │   ├── getOrCreatePrecacheController.mjs
+│   │   │   ├── PrecacheCacheKeyPlugin.d.ts
+│   │   │   ├── PrecacheCacheKeyPlugin.js
+│   │   │   ├── PrecacheCacheKeyPlugin.mjs
+│   │   │   ├── PrecacheInstallReportPlugin.d.ts
+│   │   │   ├── PrecacheInstallReportPlugin.js
+│   │   │   ├── PrecacheInstallReportPlugin.mjs
+│   │   │   ├── printCleanupDetails.d.ts
+│   │   │   ├── printCleanupDetails.js
+│   │   │   ├── printCleanupDetails.mjs
+│   │   │   ├── printInstallDetails.d.ts
+│   │   │   ├── printInstallDetails.js
+│   │   │   ├── printInstallDetails.mjs
+│   │   │   ├── removeIgnoredSearchParams.d.ts
+│   │   │   ├── removeIgnoredSearchParams.js
+│   │   │   └── removeIgnoredSearchParams.mjs
+│   │   ├── _version.d.ts
+│   │   ├── _version.js
+│   │   └── _version.mjs
+│   ├── workbox-range-requests
+│   │   ├── build
+│   │   │   ├── workbox-range-requests.dev.js
+│   │   │   ├── workbox-range-requests.dev.js.map
+│   │   │   ├── workbox-range-requests.prod.js
+│   │   │   └── workbox-range-requests.prod.js.map
+│   │   ├── createPartialResponse.d.ts
+│   │   ├── createPartialResponse.js
+│   │   ├── createPartialResponse.mjs
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── index.mjs
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── RangeRequestsPlugin.d.ts
+│   │   ├── RangeRequestsPlugin.js
+│   │   ├── RangeRequestsPlugin.mjs
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── createPartialResponse.ts
+│   │   │   ├── index.ts
+│   │   │   ├── RangeRequestsPlugin.ts
+│   │   │   ├── utils
+│   │   │   │   ├── calculateEffectiveBoundaries.ts
+│   │   │   │   └── parseRangeHeader.ts
+│   │   │   └── _version.ts
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.tsbuildinfo
+│   │   ├── utils
+│   │   │   ├── calculateEffectiveBoundaries.d.ts
+│   │   │   ├── calculateEffectiveBoundaries.js
+│   │   │   ├── calculateEffectiveBoundaries.mjs
+│   │   │   ├── parseRangeHeader.d.ts
+│   │   │   ├── parseRangeHeader.js
+│   │   │   └── parseRangeHeader.mjs
+│   │   ├── _version.d.ts
+│   │   ├── _version.js
+│   │   └── _version.mjs
+│   ├── workbox-recipes
+│   │   ├── build
+│   │   │   ├── workbox-recipes.dev.js
+│   │   │   ├── workbox-recipes.dev.js.map
+│   │   │   ├── workbox-recipes.prod.js
+│   │   │   └── workbox-recipes.prod.js.map
+│   │   ├── googleFontsCache.d.ts
+│   │   ├── googleFontsCache.js
+│   │   ├── googleFontsCache.mjs
+│   │   ├── imageCache.d.ts
+│   │   ├── imageCache.js
+│   │   ├── imageCache.mjs
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── index.mjs
+│   │   ├── LICENSE
+│   │   ├── offlineFallback.d.ts
+│   │   ├── offlineFallback.js
+│   │   ├── offlineFallback.mjs
+│   │   ├── package.json
+│   │   ├── pageCache.d.ts
+│   │   ├── pageCache.js
+│   │   ├── pageCache.mjs
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── googleFontsCache.ts
+│   │   │   ├── imageCache.ts
+│   │   │   ├── index.ts
+│   │   │   ├── offlineFallback.ts
+│   │   │   ├── pageCache.ts
+│   │   │   ├── staticResourceCache.ts
+│   │   │   ├── _version.ts
+│   │   │   └── warmStrategyCache.ts
+│   │   ├── staticResourceCache.d.ts
+│   │   ├── staticResourceCache.js
+│   │   ├── staticResourceCache.mjs
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.tsbuildinfo
+│   │   ├── _version.d.ts
+│   │   ├── _version.js
+│   │   ├── _version.mjs
+│   │   ├── warmStrategyCache.d.ts
+│   │   ├── warmStrategyCache.js
+│   │   └── warmStrategyCache.mjs
+│   ├── workbox-routing
+│   │   ├── build
+│   │   │   ├── workbox-routing.dev.js
+│   │   │   ├── workbox-routing.dev.js.map
+│   │   │   ├── workbox-routing.prod.js
+│   │   │   └── workbox-routing.prod.js.map
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── index.mjs
+│   │   ├── LICENSE
+│   │   ├── NavigationRoute.d.ts
+│   │   ├── NavigationRoute.js
+│   │   ├── NavigationRoute.mjs
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── RegExpRoute.d.ts
+│   │   ├── RegExpRoute.js
+│   │   ├── RegExpRoute.mjs
+│   │   ├── registerRoute.d.ts
+│   │   ├── registerRoute.js
+│   │   ├── registerRoute.mjs
+│   │   ├── Route.d.ts
+│   │   ├── Route.js
+│   │   ├── Route.mjs
+│   │   ├── Router.d.ts
+│   │   ├── Router.js
+│   │   ├── Router.mjs
+│   │   ├── setCatchHandler.d.ts
+│   │   ├── setCatchHandler.js
+│   │   ├── setCatchHandler.mjs
+│   │   ├── setDefaultHandler.d.ts
+│   │   ├── setDefaultHandler.js
+│   │   ├── setDefaultHandler.mjs
+│   │   ├── src
+│   │   │   ├── index.ts
+│   │   │   ├── NavigationRoute.ts
+│   │   │   ├── RegExpRoute.ts
+│   │   │   ├── registerRoute.ts
+│   │   │   ├── Router.ts
+│   │   │   ├── Route.ts
+│   │   │   ├── setCatchHandler.ts
+│   │   │   ├── setDefaultHandler.ts
+│   │   │   ├── _types.ts
+│   │   │   ├── utils
+│   │   │   │   ├── constants.ts
+│   │   │   │   ├── getOrCreateDefaultRouter.ts
+│   │   │   │   └── normalizeHandler.ts
+│   │   │   └── _version.ts
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.tsbuildinfo
+│   │   ├── _types.d.ts
+│   │   ├── _types.js
+│   │   ├── _types.mjs
+│   │   ├── utils
+│   │   │   ├── constants.d.ts
+│   │   │   ├── constants.js
+│   │   │   ├── constants.mjs
+│   │   │   ├── getOrCreateDefaultRouter.d.ts
+│   │   │   ├── getOrCreateDefaultRouter.js
+│   │   │   ├── getOrCreateDefaultRouter.mjs
+│   │   │   ├── normalizeHandler.d.ts
+│   │   │   ├── normalizeHandler.js
+│   │   │   └── normalizeHandler.mjs
+│   │   ├── _version.d.ts
+│   │   ├── _version.js
+│   │   └── _version.mjs
+│   ├── workbox-strategies
+│   │   ├── build
+│   │   │   ├── workbox-strategies.dev.js
+│   │   │   ├── workbox-strategies.dev.js.map
+│   │   │   ├── workbox-strategies.prod.js
+│   │   │   └── workbox-strategies.prod.js.map
+│   │   ├── CacheFirst.d.ts
+│   │   ├── CacheFirst.js
+│   │   ├── CacheFirst.mjs
+│   │   ├── CacheOnly.d.ts
+│   │   ├── CacheOnly.js
+│   │   ├── CacheOnly.mjs
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── index.mjs
+│   │   ├── LICENSE
+│   │   ├── NetworkFirst.d.ts
+│   │   ├── NetworkFirst.js
+│   │   ├── NetworkFirst.mjs
+│   │   ├── NetworkOnly.d.ts
+│   │   ├── NetworkOnly.js
+│   │   ├── NetworkOnly.mjs
+│   │   ├── package.json
+│   │   ├── plugins
+│   │   │   ├── cacheOkAndOpaquePlugin.d.ts
+│   │   │   ├── cacheOkAndOpaquePlugin.js
+│   │   │   └── cacheOkAndOpaquePlugin.mjs
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── CacheFirst.ts
+│   │   │   ├── CacheOnly.ts
+│   │   │   ├── index.ts
+│   │   │   ├── NetworkFirst.ts
+│   │   │   ├── NetworkOnly.ts
+│   │   │   ├── plugins
+│   │   │   │   └── cacheOkAndOpaquePlugin.ts
+│   │   │   ├── StaleWhileRevalidate.ts
+│   │   │   ├── StrategyHandler.ts
+│   │   │   ├── Strategy.ts
+│   │   │   ├── utils
+│   │   │   │   └── messages.ts
+│   │   │   └── _version.ts
+│   │   ├── StaleWhileRevalidate.d.ts
+│   │   ├── StaleWhileRevalidate.js
+│   │   ├── StaleWhileRevalidate.mjs
+│   │   ├── Strategy.d.ts
+│   │   ├── StrategyHandler.d.ts
+│   │   ├── StrategyHandler.js
+│   │   ├── StrategyHandler.mjs
+│   │   ├── Strategy.js
+│   │   ├── Strategy.mjs
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.tsbuildinfo
+│   │   ├── utils
+│   │   │   ├── messages.d.ts
+│   │   │   ├── messages.js
+│   │   │   └── messages.mjs
+│   │   ├── _version.d.ts
+│   │   ├── _version.js
+│   │   └── _version.mjs
+│   ├── workbox-streams
+│   │   ├── build
+│   │   │   ├── workbox-streams.dev.js
+│   │   │   ├── workbox-streams.dev.js.map
+│   │   │   ├── workbox-streams.prod.js
+│   │   │   └── workbox-streams.prod.js.map
+│   │   ├── concatenate.d.ts
+│   │   ├── concatenate.js
+│   │   ├── concatenate.mjs
+│   │   ├── concatenateToResponse.d.ts
+│   │   ├── concatenateToResponse.js
+│   │   ├── concatenateToResponse.mjs
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── index.mjs
+│   │   ├── isSupported.d.ts
+│   │   ├── isSupported.js
+│   │   ├── isSupported.mjs
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── concatenateToResponse.ts
+│   │   │   ├── concatenate.ts
+│   │   │   ├── index.ts
+│   │   │   ├── isSupported.ts
+│   │   │   ├── strategy.ts
+│   │   │   ├── _types.ts
+│   │   │   ├── utils
+│   │   │   │   └── createHeaders.ts
+│   │   │   └── _version.ts
+│   │   ├── strategy.d.ts
+│   │   ├── strategy.js
+│   │   ├── strategy.mjs
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.tsbuildinfo
+│   │   ├── _types.d.ts
+│   │   ├── _types.js
+│   │   ├── _types.mjs
+│   │   ├── utils
+│   │   │   ├── createHeaders.d.ts
+│   │   │   ├── createHeaders.js
+│   │   │   └── createHeaders.mjs
+│   │   ├── _version.d.ts
+│   │   ├── _version.js
+│   │   └── _version.mjs
+│   ├── workbox-sw
+│   │   ├── build
+│   │   │   ├── workbox-sw.js
+│   │   │   └── workbox-sw.js.map
+│   │   ├── controllers
+│   │   │   └── WorkboxSW.mjs
+│   │   ├── index.mjs
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── _types.mjs
+│   │   └── _version.mjs
+│   ├── workbox-webpack-plugin
+│   │   ├── build
+│   │   │   ├── generate-sw.d.ts
+│   │   │   ├── generate-sw.js
+│   │   │   ├── index.d.ts
+│   │   │   ├── index.js
+│   │   │   ├── inject-manifest.d.ts
+│   │   │   ├── inject-manifest.js
+│   │   │   └── lib
+│   │   │       ├── get-asset-hash.d.ts
+│   │   │       ├── get-asset-hash.js
+│   │   │       ├── get-manifest-entries-from-compilation.d.ts
+│   │   │       ├── get-manifest-entries-from-compilation.js
+│   │   │       ├── get-script-files-for-chunks.d.ts
+│   │   │       ├── get-script-files-for-chunks.js
+│   │   │       ├── get-sourcemap-asset-name.d.ts
+│   │   │       ├── get-sourcemap-asset-name.js
+│   │   │       ├── relative-to-output-path.d.ts
+│   │   │       ├── relative-to-output-path.js
+│   │   │       ├── resolve-webpack-url.d.ts
+│   │   │       └── resolve-webpack-url.js
+│   │   ├── LICENSE
+│   │   ├── node_modules
+│   │   │   ├── source-map
+│   │   │   │   ├── CHANGELOG.md
+│   │   │   │   ├── dist
+│   │   │   │   │   ├── source-map.debug.js
+│   │   │   │   │   ├── source-map.js
+│   │   │   │   │   ├── source-map.min.js
+│   │   │   │   │   └── source-map.min.js.map
+│   │   │   │   ├── lib
+│   │   │   │   │   ├── array-set.js
+│   │   │   │   │   ├── base64.js
+│   │   │   │   │   ├── base64-vlq.js
+│   │   │   │   │   ├── binary-search.js
+│   │   │   │   │   ├── mapping-list.js
+│   │   │   │   │   ├── quick-sort.js
+│   │   │   │   │   ├── source-map-consumer.js
+│   │   │   │   │   ├── source-map-generator.js
+│   │   │   │   │   ├── source-node.js
+│   │   │   │   │   └── util.js
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   ├── README.md
+│   │   │   │   ├── source-map.d.ts
+│   │   │   │   └── source-map.js
+│   │   │   └── webpack-sources
+│   │   │       ├── lib
+│   │   │       │   ├── applySourceMap.js
+│   │   │       │   ├── CachedSource.js
+│   │   │       │   ├── ConcatSource.js
+│   │   │       │   ├── index.js
+│   │   │       │   ├── LineToLineMappedSource.js
+│   │   │       │   ├── OriginalSource.js
+│   │   │       │   ├── PrefixSource.js
+│   │   │       │   ├── RawSource.js
+│   │   │       │   ├── ReplaceSource.js
+│   │   │       │   ├── SourceAndMapMixin.js
+│   │   │       │   ├── Source.js
+│   │   │       │   └── SourceMapSource.js
+│   │   │       ├── LICENSE
+│   │   │       ├── package.json
+│   │   │       └── README.md
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── generate-sw.ts
+│   │   │   ├── index.ts
+│   │   │   ├── inject-manifest.ts
+│   │   │   └── lib
+│   │   │       ├── get-asset-hash.ts
+│   │   │       ├── get-manifest-entries-from-compilation.ts
+│   │   │       ├── get-script-files-for-chunks.ts
+│   │   │       ├── get-sourcemap-asset-name.ts
+│   │   │       ├── relative-to-output-path.ts
+│   │   │       └── resolve-webpack-url.ts
+│   │   ├── tsconfig.json
+│   │   └── tsconfig.tsbuildinfo
+│   ├── workbox-window
+│   │   ├── build
+│   │   │   ├── workbox-window.dev.es5.mjs
+│   │   │   ├── workbox-window.dev.es5.mjs.map
+│   │   │   ├── workbox-window.dev.mjs
+│   │   │   ├── workbox-window.dev.mjs.map
+│   │   │   ├── workbox-window.dev.umd.js
+│   │   │   ├── workbox-window.dev.umd.js.map
+│   │   │   ├── workbox-window.prod.es5.mjs
+│   │   │   ├── workbox-window.prod.es5.mjs.map
+│   │   │   ├── workbox-window.prod.mjs
+│   │   │   ├── workbox-window.prod.mjs.map
+│   │   │   ├── workbox-window.prod.umd.js
+│   │   │   └── workbox-window.prod.umd.js.map
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── index.mjs
+│   │   ├── LICENSE
+│   │   ├── messageSW.d.ts
+│   │   ├── messageSW.js
+│   │   ├── messageSW.mjs
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── src
+│   │   │   ├── index.ts
+│   │   │   ├── messageSW.ts
+│   │   │   ├── utils
+│   │   │   │   ├── urlsMatch.ts
+│   │   │   │   ├── WorkboxEventTarget.ts
+│   │   │   │   └── WorkboxEvent.ts
+│   │   │   ├── _version.ts
+│   │   │   └── Workbox.ts
+│   │   ├── tsconfig.json
+│   │   ├── tsconfig.tsbuildinfo
+│   │   ├── utils
+│   │   │   ├── urlsMatch.d.ts
+│   │   │   ├── urlsMatch.js
+│   │   │   ├── urlsMatch.mjs
+│   │   │   ├── WorkboxEvent.d.ts
+│   │   │   ├── WorkboxEvent.js
+│   │   │   ├── WorkboxEvent.mjs
+│   │   │   ├── WorkboxEventTarget.d.ts
+│   │   │   ├── WorkboxEventTarget.js
+│   │   │   └── WorkboxEventTarget.mjs
+│   │   ├── _version.d.ts
+│   │   ├── _version.js
+│   │   ├── _version.mjs
+│   │   ├── Workbox.d.ts
+│   │   ├── Workbox.js
+│   │   └── Workbox.mjs
+│   ├── wrap-ansi
+│   │   ├── index.js
+│   │   ├── license
+│   │   ├── node_modules
+│   │   │   ├── ansi-styles
+│   │   │   │   ├── index.d.ts
+│   │   │   │   ├── index.js
+│   │   │   │   ├── license
+│   │   │   │   ├── package.json
+│   │   │   │   └── readme.md
+│   │   │   ├── color-convert
+│   │   │   │   ├── CHANGELOG.md
+│   │   │   │   ├── conversions.js
+│   │   │   │   ├── index.js
+│   │   │   │   ├── LICENSE
+│   │   │   │   ├── package.json
+│   │   │   │   ├── README.md
+│   │   │   │   └── route.js
+│   │   │   └── color-name
+│   │   │       ├── index.js
+│   │   │       ├── LICENSE
+│   │   │       ├── package.json
+│   │   │       └── README.md
+│   │   ├── package.json
+│   │   └── readme.md
+│   ├── wrappy
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── wrappy.js
+│   ├── write-file-atomic
+│   │   ├── CHANGELOG.md
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── ws
+│   │   ├── browser.js
+│   │   ├── index.js
+│   │   ├── lib
+│   │   │   ├── buffer-util.js
+│   │   │   ├── constants.js
+│   │   │   ├── event-target.js
+│   │   │   ├── extension.js
+│   │   │   ├── limiter.js
+│   │   │   ├── permessage-deflate.js
+│   │   │   ├── receiver.js
+│   │   │   ├── sender.js
+│   │   │   ├── stream.js
+│   │   │   ├── validation.js
+│   │   │   ├── websocket.js
+│   │   │   └── websocket-server.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── xmlchars
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   ├── xml
+│   │   │   ├── 1.0
+│   │   │   │   ├── ed4.d.ts
+│   │   │   │   ├── ed4.js
+│   │   │   │   ├── ed4.js.map
+│   │   │   │   ├── ed5.d.ts
+│   │   │   │   ├── ed5.js
+│   │   │   │   └── ed5.js.map
+│   │   │   └── 1.1
+│   │   │       ├── ed2.d.ts
+│   │   │       ├── ed2.js
+│   │   │       └── ed2.js.map
+│   │   ├── xmlchars.d.ts
+│   │   ├── xmlchars.js
+│   │   ├── xmlchars.js.map
+│   │   └── xmlns
+│   │       └── 1.0
+│   │           ├── ed3.d.ts
+│   │           ├── ed3.js
+│   │           └── ed3.js.map
+│   ├── xml-name-validator
+│   │   ├── lib
+│   │   │   ├── generated-parser.js
+│   │   │   ├── grammar.pegjs
+│   │   │   └── xml-name-validator.js
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── @xtuc
+│   │   ├── ieee754
+│   │   │   ├── dist
+│   │   │   │   └── index.cjs.js
+│   │   │   ├── index.js
+│   │   │   ├── LICENSE
+│   │   │   ├── package.json
+│   │   │   └── README.md
+│   │   └── long
+│   │       ├── dist
+│   │       │   ├── long.js
+│   │       │   └── long.js.map
+│   │       ├── index.d.ts
+│   │       ├── index.js
+│   │       ├── LICENSE
+│   │       ├── package.json
+│   │       ├── README.md
+│   │       └── src
+│   │           └── long.js
+│   ├── y18n
+│   │   ├── build
+│   │   │   ├── index.cjs
+│   │   │   └── lib
+│   │   │       ├── cjs.js
+│   │   │       ├── index.js
+│   │   │       └── platform-shims
+│   │   │           └── node.js
+│   │   ├── CHANGELOG.md
+│   │   ├── index.mjs
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── yallist
+│   │   ├── iterator.js
+│   │   ├── LICENSE
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── yallist.js
+│   ├── yaml
+│   │   ├── browser
+│   │   │   ├── dist
+│   │   │   │   ├── index.js
+│   │   │   │   ├── legacy-exports.js
+│   │   │   │   ├── package.json
+│   │   │   │   ├── parse-cst.js
+│   │   │   │   ├── PlainValue-b8036b75.js
+│   │   │   │   ├── resolveSeq-492ab440.js
+│   │   │   │   ├── Schema-e94716c8.js
+│   │   │   │   ├── types.js
+│   │   │   │   ├── util.js
+│   │   │   │   └── warnings-df54cb69.js
+│   │   │   ├── index.js
+│   │   │   ├── map.js
+│   │   │   ├── pair.js
+│   │   │   ├── parse-cst.js
+│   │   │   ├── scalar.js
+│   │   │   ├── schema.js
+│   │   │   ├── seq.js
+│   │   │   ├── types
+│   │   │   │   ├── binary.js
+│   │   │   │   ├── omap.js
+│   │   │   │   ├── pairs.js
+│   │   │   │   ├── set.js
+│   │   │   │   └── timestamp.js
+│   │   │   ├── types.js
+│   │   │   └── util.js
+│   │   ├── dist
+│   │   │   ├── Document-9b4560a1.js
+│   │   │   ├── index.js
+│   │   │   ├── legacy-exports.js
+│   │   │   ├── parse-cst.js
+│   │   │   ├── PlainValue-ec8e588e.js
+│   │   │   ├── resolveSeq-d03cb037.js
+│   │   │   ├── Schema-88e323a7.js
+│   │   │   ├── test-events.js
+│   │   │   ├── types.js
+│   │   │   ├── util.js
+│   │   │   └── warnings-1000a372.js
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── LICENSE
+│   │   ├── map.js
+│   │   ├── package.json
+│   │   ├── pair.js
+│   │   ├── parse-cst.d.ts
+│   │   ├── parse-cst.js
+│   │   ├── README.md
+│   │   ├── scalar.js
+│   │   ├── schema.js
+│   │   ├── seq.js
+│   │   ├── types
+│   │   │   ├── binary.js
+│   │   │   ├── omap.js
+│   │   │   ├── pairs.js
+│   │   │   ├── set.js
+│   │   │   └── timestamp.js
+│   │   ├── types.d.ts
+│   │   ├── types.js
+│   │   ├── types.mjs
+│   │   ├── util.d.ts
+│   │   ├── util.js
+│   │   └── util.mjs
+│   ├── yargs
+│   │   ├── browser.mjs
+│   │   ├── build
+│   │   │   ├── index.cjs
+│   │   │   └── lib
+│   │   │       ├── argsert.js
+│   │   │       ├── command.js
+│   │   │       ├── completion.js
+│   │   │       ├── completion-templates.js
+│   │   │       ├── middleware.js
+│   │   │       ├── parse-command.js
+│   │   │       ├── typings
+│   │   │       │   ├── common-types.js
+│   │   │       │   └── yargs-parser-types.js
+│   │   │       ├── usage.js
+│   │   │       ├── utils
+│   │   │       │   ├── apply-extends.js
+│   │   │       │   ├── is-promise.js
+│   │   │       │   ├── levenshtein.js
+│   │   │       │   ├── obj-filter.js
+│   │   │       │   ├── process-argv.js
+│   │   │       │   ├── set-blocking.js
+│   │   │       │   └── which-module.js
+│   │   │       ├── validation.js
+│   │   │       ├── yargs-factory.js
+│   │   │       └── yerror.js
+│   │   ├── CHANGELOG.md
+│   │   ├── helpers
+│   │   │   ├── helpers.mjs
+│   │   │   ├── index.js
+│   │   │   └── package.json
+│   │   ├── index.cjs
+│   │   ├── index.mjs
+│   │   ├── lib
+│   │   │   └── platform-shims
+│   │   │       ├── browser.mjs
+│   │   │       └── esm.mjs
+│   │   ├── LICENSE
+│   │   ├── locales
+│   │   │   ├── be.json
+│   │   │   ├── de.json
+│   │   │   ├── en.json
+│   │   │   ├── es.json
+│   │   │   ├── fi.json
+│   │   │   ├── fr.json
+│   │   │   ├── hi.json
+│   │   │   ├── hu.json
+│   │   │   ├── id.json
+│   │   │   ├── it.json
+│   │   │   ├── ja.json
+│   │   │   ├── ko.json
+│   │   │   ├── nb.json
+│   │   │   ├── nl.json
+│   │   │   ├── nn.json
+│   │   │   ├── pirate.json
+│   │   │   ├── pl.json
+│   │   │   ├── pt_BR.json
+│   │   │   ├── pt.json
+│   │   │   ├── ru.json
+│   │   │   ├── th.json
+│   │   │   ├── tr.json
+│   │   │   ├── zh_CN.json
+│   │   │   └── zh_TW.json
+│   │   ├── package.json
+│   │   ├── README.md
+│   │   └── yargs
+│   ├── yargs-parser
+│   │   ├── browser.js
+│   │   ├── build
+│   │   │   ├── index.cjs
+│   │   │   └── lib
+│   │   │       ├── index.js
+│   │   │       ├── string-utils.js
+│   │   │       ├── tokenize-arg-string.js
+│   │   │       ├── yargs-parser.js
+│   │   │       └── yargs-parser-types.js
+│   │   ├── CHANGELOG.md
+│   │   ├── LICENSE.txt
+│   │   ├── package.json
+│   │   └── README.md
+│   ├── yocto-queue
+│   │   ├── index.d.ts
+│   │   ├── index.js
+│   │   ├── license
+│   │   ├── package.json
+│   │   └── readme.md
+│   └── @zegocloud
+│       └── zego-uikit-prebuilt
+│           ├── 1On1Call.html
+│           ├── 4f79f8247d3206183fd2.svg
+│           ├── groupCall.html
+│           ├── index.d.ts
+│           ├── liveStream.html
+│           ├── package.json
+│           ├── videoConference.html
+│           ├── zego-uikit-prebuilt.js
+│           └── zego-uikit-prebuilt.js.LICENSE.txt
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── public
+│   ├── 404.html
+│   ├── favicon.ico
+│   └── index.html
+├── README.md
+├── src
+│   ├── admin
+│   │   ├── AddHealthBlog
+│   │   │   └── AdminHealthBlog.jsx
+│   │   ├── Admin
+│   │   │   └── Admin.jsx
+│   │   ├── AdminDashboard
+│   │   │   ├── AdminDashboard.jsx
+│   │   │   └── StatWidget.jsx
+│   │   ├── AdminSidebar
+│   │   │   └── Sidebar.jsx
+│   │   ├── Appointments
+│   │   │   └── Appointments.jsx
+│   │   ├── changePassword
+│   │   │   └── ChangePassword.jsx
+│   │   ├── ContactEntries
+│   │   │   └── ContactEntries.jsx
+│   │   ├── DoctorAuthentication
+│   │   │   └── DoctorAuthentication.jsx
+│   │   ├── Doctors
+│   │   │   └── Doctors.jsx
+│   │   ├── Login
+│   │   │   └── AdminLogin.jsx
+│   │   ├── PatientsList
+│   │   │   └── Patients.jsx
+│   │   └── Profile
+│   │       └── ProfileSettings.jsx
+│   ├── App.jsx
+│   ├── assets
+│   │   ├── acneblog.jpg
+│   │   ├── assets
+│   │   │   ├── doc1.jpg
+│   │   │   ├── doc4.jpg
+│   │   │   ├── doctor 5.jpg
+│   │   │   ├── specialities-01.png
+│   │   │   ├── specialities-02.png
+│   │   │   ├── specialities-03.png
+│   │   │   ├── specialities-04.png
+│   │   │   └── specialities-05.png
+│   │   ├── baby1.jpg
+│   │   ├── banner77.jpg
+│   │   ├── banner7.jpg
+│   │   ├── banner8.jpg
+│   │   ├── bannercontact1.jpg
+│   │   ├── banner.jpg
+│   │   ├── blog03.jpg
+│   │   ├── blog10.jpg
+│   │   ├── blog1.jpg
+│   │   ├── blog2.jpg
+│   │   ├── blog3.jpg
+│   │   ├── blog4.jpg
+│   │   ├── blog6.jpg
+│   │   ├── blog7.jpg
+│   │   ├── blog8.jpg
+│   │   ├── blog9.jpg
+│   │   ├── blog.jpg
+│   │   ├── book1.png
+│   │   ├── bookappointment.png
+│   │   ├── consultation.jpg
+│   │   ├── doctor-bg1.jpg
+│   │   ├── doctor.jpg
+│   │   ├── doctors-bg.jpg
+│   │   ├── eczemablog.jpg
+│   │   ├── f.jpg
+│   │   ├── fungalblog.jpg
+│   │   ├── hero-bg1.jpg
+│   │   ├── LogAdmin.jpg
+│   │   ├── Log-Bg.jpg
+│   │   ├── LogDoctor.jpg
+│   │   ├── loginImg.avif
+│   │   ├── Logoskincheckai.png
+│   │   ├── psoriasisblog.jpg
+│   │   ├── SignUpPatient.jpg
+│   │   ├── thumbnail2.jpg
+│   │   └── vitiligoblog.jpg
+│   ├── components
+│   │   ├── assets
+│   │   │   ├── book1.png
+│   │   │   └── doctor.jpg
+│   │   ├── Auth
+│   │   │   ├── Auth.jsx
+│   │   │   ├── CloseButton.jsx
+│   │   │   ├── ForgotPassword.jsx
+│   │   │   ├── LoginAdmin.jsx
+│   │   │   ├── LoginDoc.jsx
+│   │   │   ├── LoginPat.jsx
+│   │   │   ├── SignupDoc.jsx
+│   │   │   └── SignupPat.jsx
+│   │   ├── AuthContext
+│   │   │   └── AuthContext.jsx
+│   │   ├── BookAppointment
+│   │   │   ├── appointment-success.jsx
+│   │   │   └── BookAppointment.jsx
+│   │   ├── ContactUs
+│   │   │   └── ContactUs.jsx
+│   │   ├── DoctorDashboard
+│   │   │   ├── AppointmentDetailsModal.jsx
+│   │   │   ├── Appointment.jsx
+│   │   │   ├── AppointmentRequests.jsx
+│   │   │   ├── AppointmentTable.jsx
+│   │   │   ├── BaseModal.jsx
+│   │   │   ├── ButtonPrimary.jsx
+│   │   │   ├── ChangePassword.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── DermaAI.jsx
+│   │   │   ├── DoctorDashboard.jsx
+│   │   │   ├── menudermaai.jsx
+│   │   │   ├── Menu.jsx
+│   │   │   ├── Patient Appointment Record.jsx
+│   │   │   ├── PatientLookup.jsx
+│   │   │   ├── PatientPhoto.jsx
+│   │   │   ├── ProfileSettings.jsx
+│   │   │   ├── Questionare.jsx
+│   │   │   └── VideoCall.jsx
+│   │   ├── Doctors
+│   │   │   ├── DoctorCard.jsx
+│   │   │   └── Doctors.jsx
+│   │   ├── Footer
+│   │   │   └── Footer.jsx
+│   │   ├── HealthBlog
+│   │   │   └── HealthBlog.jsx
+│   │   ├── Home
+│   │   │   ├── Home.jsx
+│   │   │   └── index.css
+│   │   ├── LogOut
+│   │   │   ├── LogOut.css
+│   │   │   └── LogOut.jsx
+│   │   ├── Navbar
+│   │   │   └── Navbar.jsx
+│   │   ├── PatientDashboard
+│   │   │   ├── Appointments
+│   │   │   │   └── Appointments.jsx
+│   │   │   ├── PatientDashboard.jsx
+│   │   │   ├── PatientProfile
+│   │   │   │   └── PatientProfile.jsx
+│   │   │   ├── Settings
+│   │   │   │   └── Settings.jsx
+│   │   │   ├── upcomingappointmnet
+│   │   │   │   └── upcomingappointmnet.jsx
+│   │   │   └── VideoCall
+│   │   │       ├── ReceiveVideoCall.jsx
+│   │   │       ├── RoomPagePat.jsx
+│   │   │       └── VideoCallModal.jsx
+│   │   ├── Payment
+│   │   │   └── Payment.jsx
+│   │   ├── Services
+│   │   │   └── Services.jsx
+│   │   ├── Sidebar
+│   │   │   └── Sidebar.jsx
+│   │   ├── TopHeader
+│   │   │   └── TopHeader.jsx
+│   │   └── VideoCall
+│   │       └── RoomPage.jsx
+│   ├── controllers
+│   ├── index.css
+│   ├── index.js
+│   ├── manifest.json
+│   ├── reportWebVitals.jsx
+│   ├── routes
+│   │   └── Routes.jsx
+│   └── setupTests.jsx
+└── tailwind.config.js
+
+10356 directories, 65994 files

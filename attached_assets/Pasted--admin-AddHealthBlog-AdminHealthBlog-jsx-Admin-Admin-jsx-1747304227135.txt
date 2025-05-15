@@ -1,0 +1,164 @@
+
+├── admin
+│   ├── AddHealthBlog
+│   │   └── AdminHealthBlog.jsx
+│   ├── Admin
+│   │   └── Admin.jsx
+│   ├── AdminDashboard
+│   │   ├── AdminDashboard.jsx
+│   │   └── StatWidget.jsx
+│   ├── AdminSidebar
+│   │   └── Sidebar.jsx
+│   ├── Appointments
+│   │   └── Appointments.jsx
+│   ├── changePassword
+│   │   └── ChangePassword.jsx
+│   ├── ContactEntries
+│   │   └── ContactEntries.jsx
+│   ├── DoctorAuthentication
+│   │   └── DoctorAuthentication.jsx
+│   ├── Doctors
+│   │   └── Doctors.jsx
+│   ├── Login
+│   │   └── AdminLogin.jsx
+│   ├── PatientsList
+│   │   └── Patients.jsx
+│   └── Profile
+│       └── ProfileSettings.jsx
+├── App.jsx
+├── assets
+│   ├── acneblog.jpg
+│   ├── assets
+│   │   ├── doc1.jpg
+│   │   ├── doc4.jpg
+│   │   ├── doctor 5.jpg
+│   │   ├── specialities-01.png
+│   │   ├── specialities-02.png
+│   │   ├── specialities-03.png
+│   │   ├── specialities-04.png
+│   │   └── specialities-05.png
+│   ├── baby1.jpg
+│   ├── banner77.jpg
+│   ├── banner7.jpg
+│   ├── banner8.jpg
+│   ├── bannercontact1.jpg
+│   ├── banner.jpg
+│   ├── blog03.jpg
+│   ├── blog10.jpg
+│   ├── blog1.jpg
+│   ├── blog2.jpg
+│   ├── blog3.jpg
+│   ├── blog4.jpg
+│   ├── blog6.jpg
+│   ├── blog7.jpg
+│   ├── blog8.jpg
+│   ├── blog9.jpg
+│   ├── blog.jpg
+│   ├── book1.png
+│   ├── bookappointment.png
+│   ├── consultation.jpg
+│   ├── doctor-bg1.jpg
+│   ├── doctor.jpg
+│   ├── doctors-bg.jpg
+│   ├── eczemablog.jpg
+│   ├── f.jpg
+│   ├── fungalblog.jpg
+│   ├── hero-bg1.jpg
+│   ├── LogAdmin.jpg
+│   ├── Log-Bg.jpg
+│   ├── LogDoctor.jpg
+│   ├── loginImg.avif
+│   ├── Logoskincheckai.png
+│   ├── psoriasisblog.jpg
+│   ├── SignUpPatient.jpg
+│   ├── thumbnail2.jpg
+│   └── vitiligoblog.jpg
+├── components
+│   ├── assets
+│   │   ├── book1.png
+│   │   └── doctor.jpg
+│   ├── Auth
+│   │   ├── Auth.jsx
+│   │   ├── CloseButton.jsx
+│   │   ├── ForgotPassword.jsx
+│   │   ├── LoginAdmin.jsx
+│   │   ├── LoginDoc.jsx
+│   │   ├── LoginPat.jsx
+│   │   ├── SignupDoc.jsx
+│   │   └── SignupPat.jsx
+│   ├── AuthContext
+│   │   └── AuthContext.jsx
+│   ├── BookAppointment
+│   │   ├── appointment-success.jsx
+│   │   └── BookAppointment.jsx
+│   ├── ContactUs
+│   │   └── ContactUs.jsx
+│   ├── DoctorDashboard
+│   │   ├── AppointmentDetailsModal.jsx
+│   │   ├── Appointment.jsx
+│   │   ├── AppointmentRequests.jsx
+│   │   ├── AppointmentTable.jsx
+│   │   ├── BaseModal.jsx
+│   │   ├── ButtonPrimary.jsx
+│   │   ├── ChangePassword.jsx
+│   │   ├── Dashboard.jsx
+│   │   ├── DermaAI.jsx
+│   │   ├── DoctorDashboard.jsx
+│   │   ├── menudermaai.jsx
+│   │   ├── Menu.jsx
+│   │   ├── Patient Appointment Record.jsx
+│   │   ├── PatientLookup.jsx
+│   │   ├── PatientPhoto.jsx
+│   │   ├── ProfileSettings.jsx
+│   │   ├── Questionare.jsx
+│   │   └── VideoCall.jsx
+│   ├── Doctors
+│   │   ├── DoctorCard.jsx
+│   │   └── Doctors.jsx
+│   ├── Footer
+│   │   └── Footer.jsx
+│   ├── HealthBlog
+│   │   └── HealthBlog.jsx
+│   ├── Home
+│   │   ├── Home.jsx
+│   │   └── index.css
+│   ├── LogOut
+│   │   ├── LogOut.css
+│   │   └── LogOut.jsx
+│   ├── Navbar
+│   │   └── Navbar.jsx
+│   ├── PatientDashboard
+│   │   ├── Appointments
+│   │   │   └── Appointments.jsx
+│   │   ├── PatientDashboard.jsx
+│   │   ├── PatientProfile
+│   │   │   └── PatientProfile.jsx
+│   │   ├── Settings
+│   │   │   └── Settings.jsx
+│   │   ├── upcomingappointmnet
+│   │   │   └── upcomingappointmnet.jsx
+│   │   └── VideoCall
+│   │       ├── ReceiveVideoCall.jsx
+│   │       ├── RoomPagePat.jsx
+│   │       └── VideoCallModal.jsx
+│   ├── Payment
+│   │   └── Payment.jsx
+│   ├── Services
+│   │   └── Services.jsx
+│   ├── Sidebar
+│   │   └── Sidebar.jsx
+│   ├── TopHeader
+│   │   └── TopHeader.jsx
+│   └── VideoCall
+│       └── RoomPage.jsx
+├── controllers
+├── index.css
+├── index.js
+├── manifest.json
+├── reportWebVitals.jsx
+├── routes
+│   └── Routes.jsx
+└── setupTests.jsx
+
+41 directories, 119 files
+qasim@qasim-Latitude-5300:~/Downloads/F

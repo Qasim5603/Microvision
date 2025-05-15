@@ -1,0 +1,155 @@
+import React, { useState, useEffect } from "react";
+import { FaSpinner, FaCloudUploadAlt } from "react-icons/fa";
+
+const DermaAI = () => {
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [diagnosis, setDiagnosis] = useState(null);
+  const [confidence, setConfidence] = useState(null); // Confidence percentage
+  const [loading, setLoading] = useState(false);
+  const [progress, setProgress] = useState(0); // Progress bar
+  const [showPopup, setShowPopup] = useState(true); // Popup visibility
+
+  useEffect(() => {
+    let interval;
+    if (loading) {
+      interval = setInterval(() => {
+        setProgress((oldProgress) =>
+          oldProgress >= 100 ? 100 : oldProgress + 10
+        );
+      }, 200);
+    } else {
+      setProgress(0);
+    }
+    return () => clearInterval(interval);
+  }, [loading]);
+
+  const handleImageUpload = async (event) => {
+    const file = event.target.files[0];
+    setSelectedImage(URL.createObjectURL(file));
+    setDiagnosis(null);
+    setConfidence(null);
+    setLoading(true);
+
+    const formData = new FormData();
+    formData.append("file", file);
+
+    try {
+      const response = await fetch("http://127.0.0.1:8000/predict", {
+        method: "POST",
+        body: formData,
+      });
+
+      if (response.ok) {
+        const data = await response.json();
+
+        if (data.prediction === "Non-Skin") {
+          setDiagnosis("The image does not contain skin.");
+        } else if (data.prediction === "Skin") {
+          const predictedClass = data.classification_predictions.predicted_class_label;
+          const confidenceLevel = data.classification_predictions.probabilities[0][
+            data.classification_predictions.predicted_class_index
+          ];
+          setDiagnosis(predictedClass);
+          setConfidence(confidenceLevel);
+        }
+      } else {
+        setDiagnosis("Unable to process the image. Please try again.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      setDiagnosis("An error occurred. Please try again.");
+    } finally {
+      setLoading(false);
+    }
+  };
+
+  const handleRefresh = () => {
+    setSelectedImage(null);
+    setDiagnosis(null);
+    setConfidence(null);
+  };
+
+  const handleContinue = () => {
+    setShowPopup(false);
+  };
+
+  return (
+    <div className="relative flex flex-col items-center justify-center min-h-screen px-4 py-10 bg-gradient-to-b from-[#E8F7F5] via-white to-[#E8F7F5]">
+      <h1 className="text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-[#00AF95] to-[#2a9d8f] mb-12">
+        DermaAI
+      </h1>
+
+      {showPopup ? (
+        <div className="p-8 bg-white border border-[#00AF95] rounded-2xl shadow-2xl max-w-lg text-center">
+          <p className="text-lg text-gray-700 mb-6">
+            Welcome to <span className="text-[#00AF95] font-bold">DermaAI</span>! Upload an image of your skin concern for diagnosis.
+          </p>
+          <button
+            onClick={handleContinue}
+            className="bg-gradient-to-r from-[#00AF95] to-[#2a9d8f] text-white py-3 px-8 rounded-full shadow-md hover:shadow-xl transform hover:scale-105 transition-all"
+          >
+            Get Started
+          </button>
+        </div>
+      ) : (
+        <div className="p-6 bg-white border border-[#00AF95] rounded-2xl shadow-lg max-w-xl w-full text-center">
+          {!selectedImage ? (
+            <label
+              htmlFor="imageUpload"
+              className="flex flex-col items-center justify-center p-10 bg-gray-100 border-2 border-dashed border-[#00AF95] rounded-lg cursor-pointer hover:bg-gray-200 transition-all"
+            >
+              <input
+                type="file"
+                id="imageUpload"
+                accept="image/*"
+                className="hidden"
+                onChange={handleImageUpload}
+              />
+              <FaCloudUploadAlt className="text-6xl text-[#00AF95]" />
+              <p className="text-gray-600 mt-4">Click to Upload Your Skin Image</p>
+            </label>
+          ) : (
+            <>
+              {loading ? (
+                <div className="flex flex-col items-center">
+                  <FaSpinner className="text-6xl text-[#00AF95] animate-spin" />
+                  <p className="text-gray-700 mt-4">Processing...</p>
+                  <div className="w-full bg-gray-200 rounded-full h-4 mt-4">
+                    <div
+                      className="bg-[#00AF95] h-4 rounded-full transition-all duration-300"
+                      style={{ width: `${progress}%` }}
+                    ></div>
+                  </div>
+                </div>
+              ) : (
+                <>
+                  <img
+                    src={selectedImage}
+                    alt="Uploaded"
+                    className="w-64 h-64 object-cover rounded-lg shadow-md mx-auto mb-6"
+                  />
+                  <h2 className="text-2xl font-bold text-[#2a9d8f] mb-2">
+                    Diagnosis: {diagnosis || "N/A"}
+                  </h2>
+                  {confidence && (
+                    <p className="text-gray-600">
+                      Confidence: {(confidence * 100).toFixed(2)}%
+                    </p>
+                  )}
+                  <button
+                    onClick={handleRefresh}
+                    className="mt-6 bg-gradient-to-r from-[#00AF95] to-[#2a9d8f] text-white py-3 px-8 rounded-full shadow-md hover:shadow-xl transform hover:scale-105 transition-all"
+                  >
+                    Upload Another Image
+                  </button>
+                </>
+              )}
+            </>
+          )}
+        </div>
+      )}
+    </div>
+  );
+};
+
+export default DermaAI;
