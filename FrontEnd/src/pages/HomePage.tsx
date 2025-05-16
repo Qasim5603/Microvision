@@ -13,35 +13,25 @@ export default function HomePage() {
                 <h1 className="text-2xl font-bold text-blue-600">MicroVision</h1>
               </div>
               <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-                <Link href="/">
-                  <a className="border-blue-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                    Home
-                  </a>
+                <Link href="/" className="border-blue-500 text-gray-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                  Home
                 </Link>
-                <Link href="/analysis">
-                  <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                    Analysis
-                  </a>
+                <Link href="/analysis" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                  Analysis
                 </Link>
-                <Link href="/resources">
-                  <a className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                    Resources
-                  </a>
+                <Link href="/resources" className="border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+                  Resources
                 </Link>
               </div>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:items-center">
               <div className="ml-3 relative">
                 <div className="flex space-x-4">
-                  <Link href="/login">
-                    <a className="text-gray-500 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium">
-                      Login
-                    </a>
+                  <Link href="/login" className="text-gray-500 hover:text-gray-700 px-3 py-2 rounded-md text-sm font-medium">
+                    Login
                   </Link>
-                  <Link href="/register">
-                    <a className="bg-blue-600 text-white hover:bg-blue-700 px-3 py-2 rounded-md text-sm font-medium">
-                      Register
-                    </a>
+                  <Link href="/register" className="bg-blue-600 text-white hover:bg-blue-700 px-3 py-2 rounded-md text-sm font-medium">
+                    Register
                   </Link>
                 </div>
               </div>
@@ -66,17 +56,13 @@ export default function HomePage() {
                   </p>
                   <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                     <div className="rounded-md shadow">
-                      <Link href="/analysis">
-                        <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
-                          Try Analysis
-                        </a>
+                      <Link href="/analysis" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 md:py-4 md:text-lg md:px-10">
+                        Try Analysis
                       </Link>
                     </div>
                     <div className="mt-3 sm:mt-0 sm:ml-3">
-                      <Link href="/resources">
-                        <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
-                          Learn More
-                        </a>
+                      <Link href="/resources" className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-blue-700 bg-blue-100 hover:bg-blue-200 md:py-4 md:text-lg md:px-10">
+                        Learn More
                       </Link>
                     </div>
                   </div>
@@ -245,17 +231,13 @@ export default function HomePage() {
           </p>
           <div className="mt-8 flex justify-center">
             <div className="inline-flex rounded-md shadow">
-              <Link href="/register">
-                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50">
-                  Sign up for free
-                </a>
+              <Link href="/register" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-blue-600 bg-white hover:bg-blue-50">
+                Sign up for free
               </Link>
             </div>
             <div className="ml-3 inline-flex">
-              <Link href="/resources">
-                <a className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800">
-                  Learn more
-                </a>
+              <Link href="/resources" className="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-blue-700 hover:bg-blue-800">
+                Learn more
               </Link>
             </div>
           </div>
