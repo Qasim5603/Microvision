@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "NODE_ENV=development tsx server/index.ts",
     "build": "tsc",
+    "test":"echo testing",
     "start": "node dist/server/index.js"
   },
   "dependencies": {
